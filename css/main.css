@@ -47,7 +47,7 @@ main {
     align-items: center;
     justify-content: center;
     transform: scale(0.8) translateY(15%);
-    transition: 8s transform ease-in-out;
+    transition: transform 12s ease-in-out;
 }
 
 @keyframes slideFromLeft {
@@ -222,16 +222,17 @@ footer {
         display: flex;
         justify-content: center;
         gap: 0.5rem;
-        font-size: calc(2.6rem - 30%);
+        font-size: calc(2.6rem - 20%);
     }
 
     .card-container {
         transform: scale(1) translateY(15%);
+        transition: transform 12s ease-in-out;
     }
 
     .description {
         justify-self: center;
-        font-size: calc(1.5rem - 30%);
+        font-size: calc(1.5rem - 20%);
         flex-direction: column;
     }
 }
