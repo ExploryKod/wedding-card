@@ -46,7 +46,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: scale(0.8);
+    transform: scale(0.8) translateY(15%);
     transition: 8s transform ease-in-out;
 }
 
@@ -68,7 +68,6 @@ main {
 }
 
 .card-inner-container {
-
     display: block;
     min-width: 100%;
     padding: calc(2rem + 1vw);
@@ -224,6 +223,10 @@ footer {
         justify-content: center;
         gap: 0.5rem;
         font-size: calc(2.6rem - 30%);
+    }
+
+    .card-container {
+        transform: scale(1) translateY(15%);
     }
 
     .description {
