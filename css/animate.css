@@ -88,6 +88,7 @@ svg {
     }
 
     .btn-fullscreen {
+        display: none;
         position: fixed;
         right: 0px;
         top: 3%;
