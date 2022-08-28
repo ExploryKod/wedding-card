@@ -47,7 +47,7 @@ main {
     align-items: center;
     justify-content: center;
     transform: scale(0.8);
-    transition: transform 8s ease-in;
+    transition: 8s transform ease-in-out;
 }
 
 @keyframes slideFromLeft {
@@ -68,6 +68,7 @@ main {
 }
 
 .card-inner-container {
+
     display: block;
     min-width: 100%;
     padding: calc(2rem + 1vw);
