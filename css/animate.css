@@ -76,3 +76,22 @@ svg {
     background: #ffffff;
     color: #1B1734;
 }
+
+
+@media screen and (max-width:476px) {
+    .btn-attribution {
+        position: fixed;
+        left: 0px;
+        top: 3%;
+        bottom: unset;
+        transform: translateX(50%);
+    }
+
+    .btn-fullscreen {
+        position: fixed;
+        right: 0px;
+        top: 3%;
+        bottom: unset;
+        transform: translateX(-50%);
+    }
+}

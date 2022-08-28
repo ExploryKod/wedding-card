@@ -124,14 +124,6 @@ main {
 
 /* color and some style for main */
 
-.body-color {
-    background-image: url("../images/pattern-background-desktop.svg");
-    background-color: var(--Pale-blue);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
 .card-color {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -185,14 +177,19 @@ footer {
 }
 
 .attribution {
-    color: yellow;
+    color: whitesmoke;
     font-size: 11px;
     text-align: center;
 }
 
 .attribution a {
     color: whitesmoke;
+    text-decoration: underline;
     font-size: 11px;
+}
+
+.attribution a:hover {
+    color: yellow;
 }
 
 #footer.open {
@@ -208,14 +205,6 @@ footer {
 }
 
 @media screen and (max-width:476px) {
-
-    .body-color {
-        background-image: url("../images/pattern-background-mobile.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-
-    }
 
     .title {
         font-family: var(--font-family-title);
